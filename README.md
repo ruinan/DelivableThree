@@ -14,6 +14,8 @@ The Cart Test reflect the test for basic cart operations, like add items, change
 The Search Test consists by two cases. One is searching with specific name. Another is searching with ambiguous name. The searching result will tell performance of the search function.
 
 For the coding, the xpath brings a lot of troubles. Finally I found the xpath got from chrome will cause incredible errors, like xpath does not exist etc. And the addons for firefox are very hard for use. In order to avoid wasting much time in it, I decide to use ChromeDriver to replace FirefoxDriver. In the project, all test drivers are ChromeDriver and it been added into /usr/include/bin/ folder that could be calling when coding. And in the Mac, System.setProperty() is not necessary.
+>NOTICE: My IP and account have been blocked
+
 ##User Stories
 
 ###Cart Test
