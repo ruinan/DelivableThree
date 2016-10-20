@@ -54,9 +54,9 @@ For the coding, the xpath brings a lot of troubles. Finally I found the xpath go
     When: I try to login with this credentials
     Then: I should receive warning message "ERROR"
 ####Scenario4: Login with empty input
-    Given: Empty input bars
-    When: I try to login with this credentials
-    Then: I should receive warning message "ERROR"
+    Given: Empty input for username and password bar
+    When: I try to login
+    Then: I should receive warning message 
 	
 ###Search Test
 ####User Story
